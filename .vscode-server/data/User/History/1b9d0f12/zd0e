@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Ensure the correct file path to your video and the video_control.py script
+VIDEO_PATH="/home/pi/your/video/file.mp4"
+CONTROL_SCRIPT="/path/to/your/video_control.py"
+
+# Launch mplayer with the video file on the piTFT
+mplayer -fs -vo fbdev2:/dev/fb1 -framedrop "$VIDEO_PATH" &
+
+# Get the PID of the mplayer process
+MPLAYER_PID=$!
+
+# Launch the video control Python script
+python3 "$CONTROL_SCRIPT" &
+
+# Get the PID of the Python script process
+CONTROL_PID=$!
+
+# Function to handle script exit
+cleanup() {
+    echo "Stopping mplayer and video control..."
+    kill $MPLAYER_PID
+    kill $CONTROL_PID
+}
+
+# Trap the EXIT signal to ensure cleanup occurs on exit
+trap cleanup EXIT
+
+# Wait for mplayer process to finish
+wait $MPLAYER_PID

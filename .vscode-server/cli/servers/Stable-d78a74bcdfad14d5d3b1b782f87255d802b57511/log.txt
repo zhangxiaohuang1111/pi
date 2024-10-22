@@ -1,0 +1,30 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-62b9b20e-86a5-4c48-a072-44d0765dff32
+Extension host agent listening on /tmp/code-62b9b20e-86a5-4c48-a072-44d0765dff32
+
+[14:10:05] 
+
+
+
+
+[14:10:06] Extension host agent started.
+[14:10:06] [<unknown>][3154d0ac][ExtensionHostConnection] New connection established.
+[14:10:06] [<unknown>][d618d488][ManagementConnection] New connection established.
+[14:10:06] [<unknown>][3154d0ac][ExtensionHostConnection] <3972> Launched Extension Host Process.
+[14:10:14] [<unknown>][d618d488][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:10:15] [<unknown>][00ab4c96][ExtensionHostConnection] New connection established.
+[14:10:15] [<unknown>][00ab4c96][ExtensionHostConnection] <4015> Launched Extension Host Process.
+[14:10:15] [<unknown>][1937c9a0][ManagementConnection] New connection established.
+[14:10:20] [<unknown>][3154d0ac][ExtensionHostConnection] <3972> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[14:10:20] Cancelling previous shutdown timeout
+[14:14:39] [<unknown>][1937c9a0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[14:14:40] [<unknown>][00ab4c96][ExtensionHostConnection] <4015> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[14:14:40] Last EH closed, waiting before shutting down

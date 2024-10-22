@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "executable": "/bin/python",
+    "prefix": "/usr",
+    "version": "3.9.2.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/bin/python",
+      "/bin/python3",
+      "/bin/python3.9"
+    ]
+  },
+  "symlinks": [
+    [
+      "/bin/python",
+      {
+        "secs_since_epoch": 1614531824,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1720052434,
+        "nanos_since_epoch": 113775420
+      }
+    ],
+    [
+      "/bin/python3",
+      {
+        "secs_since_epoch": 1614531824,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1720052434,
+        "nanos_since_epoch": 113775420
+      }
+    ],
+    [
+      "/bin/python3.9",
+      {
+        "secs_since_epoch": 1614531824,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1720052434,
+        "nanos_since_epoch": 113775420
+      }
+    ]
+  ]
+}

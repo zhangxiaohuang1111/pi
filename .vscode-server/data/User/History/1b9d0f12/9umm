@@ -1,0 +1,22 @@
+#!/bin/bash
+
+command
+
+
+if [ $? -eq 0 ]; then
+    echo "Command executed successfully."
+else
+    echo "Command failed."
+    exit 1
+fi
+
+# 运行 Python 文件
+python3 /path/to/your/script.py
+
+# 检查 Python 文件是否成功执行
+if [ $? -eq 0 ]; then
+    echo "Python script executed successfully."
+else
+    echo "Python script execution failed."
+    exit 1
+fi
