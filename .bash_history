@@ -860,3 +860,44 @@ git
 git remotee
 git remote -v
 git push
+cd lab4_files_f24/
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git
+ls
+cd rt-tests/
+make all
+sudo make install
+sudo cyclictest --help
+cyclictest --help
+time sudo cyclictest -p 90 -n –m -t4 -l 10000
+time sudo cyclictest -p 90 -n –m -h 500 -t4 -l 300000
+cd
+cd lab4_files_f24/
+gcc -std=c99 -o sort_v1 sort_v1.c
+cd lab4_files_f24/
+gcc -std=c99 -o sort_v1 sort_v1.c
+htop
+cd lab4_files_f24/
+gcc -std=c99 -o sort_v1 sort_v1.c
+perf_5.10 stat ./sort_v1
+./sort_v1 &
+for i in {1..30}; do ./sort_v1 & done
+htop
+time sudo cyclictest -p 90 -n -m -h 500 -t4 -l 300000
+for i in {1..30}; do ./sort_v1 & done
+time sudo cyclictest -p 90 -n -m -h 500 -t4 -l 300000
+htop
+htop
+gcc -std=c99 -o sort_v1_modified sort_v1_modified.c 
+perf_5.10 stat ./sort_v1_modified
+htop
+python blink_v3.py 
+python blink_v3.py
+./blink_v7 1000
+sudo ./blink_v7 1000
+sudo ./blink_v7 2000
+sudo ./blink_v7 10000
+sudo ./blink_v7 50000
+sudo ./blink_v7 30000
+sudo ./blink_v7 40000
+sudo ./blink_v7 20000
+htop

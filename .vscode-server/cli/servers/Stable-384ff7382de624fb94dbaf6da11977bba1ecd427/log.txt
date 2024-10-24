@@ -5,21 +5,22 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-ae5ffcfb-1692-4729-8fc3-3a2a676260a1
-Extension host agent listening on /tmp/code-ae5ffcfb-1692-4729-8fc3-3a2a676260a1
+Server bound to /tmp/code-ea0169a3-d62a-43f4-9955-3120f9de4462
+Extension host agent listening on /tmp/code-ea0169a3-d62a-43f4-9955-3120f9de4462
 
-[16:51:50] 
-
-
+[18:55:01] 
 
 
-[16:51:50] Extension host agent started.
-[16:51:50] [<unknown>][72094626][ManagementConnection] New connection established.
-[16:51:50] [<unknown>][6f0b6667][ExtensionHostConnection] New connection established.
-[16:51:51] [<unknown>][6f0b6667][ExtensionHostConnection] <1802> Launched Extension Host Process.
-[16:51:51] Deleted uninstalled extension from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.241.0
-[16:52:02] [File Watcher] Unexpected error: inotify_add_watch on '/home/pi/.vscode-server/data/logs/20241019T153924/exthost1/vscode.json-language-features' failed: No such file or directory (EUNKNOWN) (path: /home/pi)
-[16:52:02] [File Watcher (universal)] inotify_add_watch on '/home/pi/.vscode-server/data/logs/20241019T153924/exthost1/vscode.json-language-features' failed: No such file or directory
+
+
+[18:55:01] Extension host agent started.
+[18:55:02] [<unknown>][10966503][ExtensionHostConnection] Unknown reconnection token (never seen).
+[18:55:02] [<unknown>][51601bfb][ManagementConnection] Unknown reconnection token (never seen).
+[18:55:04] [<unknown>][dbcb8b21][ExtensionHostConnection] New connection established.
+[18:55:04] [<unknown>][dbcb8b21][ExtensionHostConnection] <166594> Launched Extension Host Process.
+[18:55:04] [<unknown>][53df6604][ManagementConnection] New connection established.
+[18:55:13] [File Watcher] Unexpected error: inotify_add_watch on '/home/pi/.vscode-server/data/logs/20241019T155402/exthost1' failed: No such file or directory (EUNKNOWN) (path: /home/pi)
+[18:55:13] [File Watcher (universal)] inotify_add_watch on '/home/pi/.vscode-server/data/logs/20241019T155402/exthost1' failed: No such file or directory
+[18:59:32] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 New EH opened, aborting shutdown
-[16:56:50] New EH opened, aborting shutdown
-[17:03:34] [<unknown>][72094626][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[19:00:01] New EH opened, aborting shutdown
