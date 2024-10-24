@@ -24,3 +24,7 @@ Extension host agent listening on /tmp/code-ea0169a3-d62a-43f4-9955-3120f9de4462
 [18:59:32] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 New EH opened, aborting shutdown
 [19:00:01] New EH opened, aborting shutdown
+[19:19:37] [<unknown>][53df6604][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[19:19:40] [<unknown>][53df6604][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[19:19:40] [<unknown>][53df6604][ManagementConnection] The client has reconnected.
+[19:19:42] [<unknown>][dbcb8b21][ExtensionHostConnection] The client has reconnected.

@@ -901,3 +901,9 @@ sudo ./blink_v7 30000
 sudo ./blink_v7 40000
 sudo ./blink_v7 20000
 htop
+df -h
+cd linux
+head Makefile 
+df -h
+ls -l
+ls -l -a

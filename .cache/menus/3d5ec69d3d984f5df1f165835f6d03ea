@@ -132,20 +132,6 @@ python
 
 Application;Development
 
--wolfram-mathematica.desktop
-Mathematica
-Technical Computing System
-wolfram-mathematica
-
-11
-
-mathematica %F
-2
-0
-
-
-Application;Development
-
 -mu.codewith.editor.desktop
 mu
 A Python editor for beginner programmers
@@ -286,20 +272,6 @@ Python IDE
 
 Development;IDE
 programming,education
--wolfram-language.desktop
-Wolfram
-Technical Programming Environment
-wolfram-language
-
-11
-
-x-terminal-emulator -t "Wolfram Language" -e wolfram
-2
-0
-
-
-Application;Development
-
 
 +Education
 Education
