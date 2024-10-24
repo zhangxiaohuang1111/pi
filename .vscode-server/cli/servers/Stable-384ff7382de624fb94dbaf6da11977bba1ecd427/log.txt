@@ -5,102 +5,18 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-3acecba9-040f-4744-9be5-d114ec4e7e64
-Extension host agent listening on /tmp/code-3acecba9-040f-4744-9be5-d114ec4e7e64
+Server bound to /tmp/code-ae5ffcfb-1692-4729-8fc3-3a2a676260a1
+Extension host agent listening on /tmp/code-ae5ffcfb-1692-4729-8fc3-3a2a676260a1
 
-[16:27:50] 
-
-
+[16:51:50] 
 
 
-[16:27:50] Extension host agent started.
-[16:27:50] [<unknown>][05cf3252][ExtensionHostConnection] New connection established.
-[16:27:50] [<unknown>][4fa3d17b][ManagementConnection] New connection established.
-[16:27:51] [<unknown>][05cf3252][ExtensionHostConnection] <1091> Launched Extension Host Process.
-[16:27:56] Getting Manifest... github.copilot
-[16:27:56] Installing extension: github.copilot {
-  productVersion: { version: '1.94.2', date: '2024-10-09T16:08:44.566Z' },
-  pinned: false,
-  operation: 3,
-  isApplicationScoped: false,
-  donotVerifySignature: false,
-  context: { clientTargetPlatform: 'darwin-arm64' },
-  installOnlyNewlyAddedFromExtensionPack: true,
-  profileLocation: hn {
-    scheme: 'file',
-    authority: '',
-    path: '/home/pi/.vscode-server/extensions/extensions.json',
-    query: '',
-    fragment: '',
-    _formatted: 'file:///home/pi/.vscode-server/extensions/extensions.json',
-    _fsPath: '/home/pi/.vscode-server/extensions/extensions.json'
-  }
-}
-[16:27:59] [<unknown>][4fa3d17b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[16:27:59] [<unknown>][05cf3252][ExtensionHostConnection] <1091> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[16:27:59] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[16:27:59] Last EH closed, waiting before shutting down
-[16:28:00] [<unknown>][dc306749][ManagementConnection] New connection established.
-[16:28:00] [<unknown>][c2fd5dcd][ExtensionHostConnection] New connection established.
-[16:28:00] [<unknown>][c2fd5dcd][ExtensionHostConnection] <1188> Launched Extension Host Process.
-[16:28:03] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 5585ms.
-[16:28:04] Getting Manifest... github.copilot
-[16:28:04] Extension is already requested to install github.copilot file:///home/pi/.vscode-server/extensions/extensions.json
-[16:28:05] Extracted extension to file:///home/pi/.vscode-server/extensions/github.copilot-1.242.0: github.copilot
-[16:28:06] Renamed to /home/pi/.vscode-server/extensions/github.copilot-1.242.0
-[16:28:06] Marked extension as uninstalled github.copilot-1.241.0
-[16:28:06] Extension installed successfully: github.copilot file:///home/pi/.vscode-server/extensions/extensions.json
-[16:28:11] [File Watcher] Unexpected error: inotify_add_watch on '/home/pi/.vscode-server/extensions/.935b81dc-11cc-4222-89fa-a08d9cf14ba8/assets/status' failed: No such file or directory (EUNKNOWN) (path: /home/pi)
-[16:28:11] [File Watcher (universal)] inotify_add_watch on '/home/pi/.vscode-server/extensions/.935b81dc-11cc-4222-89fa-a08d9cf14ba8/assets/status' failed: No such file or directory
-[16:28:15] Downloaded extension to file:///home/pi/.vscode-server/data/CachedExtensionVSIXs/a3435eaf-d6ec-49a9-8808-be3a5566a29b
-[16:28:15] Installing extension: github.copilot-chat {
-  productVersion: { version: '1.94.2', date: '2024-10-09T16:08:44.566Z' },
-  pinned: false,
-  operation: 3,
-  isApplicationScoped: false,
-  donotVerifySignature: false,
-  donotIncludePackAndDependencies: true,
-  keepExisting: true,
-  installOnlyNewlyAddedFromExtensionPack: false,
-  profileLocation: hn {
-    scheme: 'file',
-    authority: '',
-    path: '/home/pi/.vscode-server/extensions/extensions.json',
-    query: '',
-    fragment: '',
-    _formatted: 'file:///home/pi/.vscode-server/extensions/extensions.json',
-    _fsPath: '/home/pi/.vscode-server/extensions/extensions.json'
-  }
-}
-[16:28:15] Installing the extension without checking dependencies and pack github.copilot-chat
-[16:28:15] Deleted existing extension from disk github.copilot-chat /home/pi/.vscode-server/extensions/github.copilot-chat-0.21.2
-[16:28:16] Extracted extension to file:///home/pi/.vscode-server/extensions/github.copilot-chat-0.21.2: github.copilot-chat
-[16:28:16] Renamed to /home/pi/.vscode-server/extensions/github.copilot-chat-0.21.2
-[16:28:16] Extension installed successfully: github.copilot-chat file:///home/pi/.vscode-server/extensions/extensions.json
-[16:28:43] Downloaded extension to file:///home/pi/.vscode-server/data/CachedExtensionVSIXs/af38a5e4-7bac-429b-93e3-01370bd190be
-[16:28:43] Installing extension: github.copilot {
-  productVersion: { version: '1.94.2', date: '2024-10-09T16:08:44.566Z' },
-  pinned: false,
-  operation: 3,
-  isApplicationScoped: false,
-  donotVerifySignature: false,
-  donotIncludePackAndDependencies: true,
-  keepExisting: true,
-  installOnlyNewlyAddedFromExtensionPack: false,
-  profileLocation: hn {
-    scheme: 'file',
-    authority: '',
-    path: '/home/pi/.vscode-server/extensions/extensions.json',
-    query: '',
-    fragment: '',
-    _formatted: 'file:///home/pi/.vscode-server/extensions/extensions.json',
-    _fsPath: '/home/pi/.vscode-server/extensions/extensions.json'
-  }
-}
-[16:28:43] Installing the extension without checking dependencies and pack github.copilot
-[16:28:43] Deleted existing extension from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.242.0
-[16:28:45] Extracted extension to file:///home/pi/.vscode-server/extensions/github.copilot-1.242.0: github.copilot
-[16:28:45] Renamed to /home/pi/.vscode-server/extensions/github.copilot-1.242.0
-[16:28:45] Extension installed successfully: github.copilot file:///home/pi/.vscode-server/extensions/extensions.json
+
+
+[16:51:50] Extension host agent started.
+[16:51:50] [<unknown>][72094626][ManagementConnection] New connection established.
+[16:51:50] [<unknown>][6f0b6667][ExtensionHostConnection] New connection established.
+[16:51:51] [<unknown>][6f0b6667][ExtensionHostConnection] <1802> Launched Extension Host Process.
+[16:51:51] Deleted uninstalled extension from disk github.copilot /home/pi/.vscode-server/extensions/github.copilot-1.241.0
+[16:52:02] [File Watcher] Unexpected error: inotify_add_watch on '/home/pi/.vscode-server/data/logs/20241019T153924/exthost1/vscode.json-language-features' failed: No such file or directory (EUNKNOWN) (path: /home/pi)
+[16:52:02] [File Watcher (universal)] inotify_add_watch on '/home/pi/.vscode-server/data/logs/20241019T153924/exthost1/vscode.json-language-features' failed: No such file or directory

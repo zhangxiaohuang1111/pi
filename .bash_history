@@ -855,3 +855,8 @@ git push -f origin main
 git remote -vv
 git push -f origin main
 sudo shutdown -h now
+sudo shutdown now
+git
+git remotee
+git remote -v
+git push
