@@ -1460,16 +1460,9 @@
 	},
 	"isPreRelease": false,
 	"__metadata": {
-		"id": "7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f",
-		"publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002",
-		"publisherDisplayName": "GitHub",
-		"targetPlatform": "undefined",
 		"isApplicationScoped": false,
-		"isPreReleaseVersion": false,
-		"hasPreReleaseVersion": false,
-		"installedTimestamp": 1729198257700,
+		"installedTimestamp": 1729801695959,
 		"pinned": false,
-		"preRelease": false,
-		"source": "gallery"
+		"source": "vsix"
 	}
 }

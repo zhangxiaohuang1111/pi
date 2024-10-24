@@ -835,3 +835,23 @@ git remorm -rf .git
 rm -rf .git
 rm -f ~/.gitconfig
 cd pi
+git remote 
+git remote -vv
+git push
+git remote add origin https://github.com/zhangxiaohuang1111/pi
+git push
+git remote -vv
+git push -f origin main
+git branch
+git checkout -b main
+git push -f origin main
+git push -f origin HEAD:main
+git add .
+git commit -m "Initial commit"
+git config --global user.email zh476@cornell.edu
+git config --global user.name zhangxiao
+git commit -m "Initial commit"
+git push -f origin main
+git remote -vv
+git push -f origin main
+sudo shutdown -h now
